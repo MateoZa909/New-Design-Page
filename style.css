@@ -67,7 +67,8 @@
         grid-column: 1;
         grid-row: 2;
         margin-top: -130px;
-        padding-left: 8px;
+        margin-left: 12px;
+        object-fit: contain;
     }
     
     .box-card .lv {
