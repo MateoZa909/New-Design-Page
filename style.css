@@ -93,6 +93,8 @@
         width: 100%;
         height: auto;
         background-color: #EAE7E7;
+        justify-content: center;
+        align-items: center;
     }
     
     .description h1 {
@@ -103,6 +105,127 @@
     .description p {
         font-size: 11px;
         padding: 5px 5px;
+    }
+
+    .register {
+        position: absolute;
+        width: 80px;
+        height: 40px;
+        background-color: rgb(236, 29, 29);
+        border-radius: 10px;
+        right: 9px;
+        top: 24%;
+        animation: 3.90s register linear infinite;
+        border: none;
+        cursor: pointer;
+    }
+
+    @keyframes register {
+        0% {
+            opacity: 1;
+        }
+        15% {
+            opacity: 0;
+        }
+        30% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        75% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .register a {
+        text-align: center;
+        color: #fff;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #D9D9D9;
+        gap: 70px;
+    }
+    
+    .container .spreech {
+        width: 100%;
+        height: 50px;
+        background-color: #B0AAAA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spreech h1 {
+        color: #fff;
+        text-align: center;
+    }
+
+    .spreech img {
+        position: absolute;
+        left: 8px;
+        width: 33px;
+        height: 33px;
+        top: 5.50px;
+    }
+
+    .title {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .title h1 {
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .form {
+        width: 90%;
+        height: 400px;
+        margin: 30px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .form label {
+        margin-bottom: -20px;
+        font-size: 20px;
+    }
+
+    .form input {
+        border: none;
+        background: transparent;
+        border-bottom: 5px solid #ccc;
+    }
+
+    .form .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form button {
+        border: none;
+        width: 180px;
+        height: 50px;
+        border-radius: 15px;
+        background-color: #2285E1;
+        font-size: 20px;
+        color: #fff;
     }
 }
 
